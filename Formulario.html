@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Innovación Tecnológica </title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #dbcdcd;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #6bacb8;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(228, 215, 215, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #9fc4a0;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #042506;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Innovación Tecnológica</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="INICIO.html">|Inicio </a></li>
+      <li><a href="Recursos.html">| Recursos </a></li>
+      <li><a href="Plantillas.html">| Plantillas </a></li>
+      <li><a href="Contacto.html">| Contacto </a></li>
+      <li><a href="Formulario.html">| Sugerencias </a></li>
+      <li><a href="Exposicion-escolar.pdf">| Más información</a></li>
+      
+    </ul>
+  </nav>
+</head>
+<body>
+
+  <div class="container">
+    <form id="Mi formulario" action="https://formspree.io/f/moqgjjnr" method="post">
+        <h2>
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="correo">Correo Electronico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mensaje">Tu duda o sugerencia:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="Enviar">
+        </h2>
+      </form>
+  </div>
+
+</body>
+</html>
